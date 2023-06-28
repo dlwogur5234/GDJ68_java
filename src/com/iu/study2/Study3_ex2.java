@@ -23,7 +23,7 @@ public class Study3_ex2 {
 			System.out.println("로그인 성공");
 		}
 		else {
-			login=false;
+			login = false;
 			System.out.println("로그인 실패");
 		}
 		
