@@ -31,7 +31,7 @@ public class Study5_while_ex1 {
 					int mon = 0;
 					for(lev=0; lev<16; lev++) {
 						for(mon=0;mon<43;mon++) {
-							if(mon/3==0) {
+							if(mon%3==0) {
 								lev=lev+1;
 								System.out.println("·¹º§¾÷!!");
 								if(lev==5) {
