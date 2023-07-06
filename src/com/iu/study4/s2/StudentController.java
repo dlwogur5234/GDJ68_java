@@ -31,7 +31,7 @@ public class StudentController {
 				// 1. findByNum 호출
 				Student student = studentService.findByNum(students);
 				// 2. viewOne 출력
-				studentView.viewOne(student);
+				studentView.view(student);
 			}
 			else {
 				System.out.println("종료");
