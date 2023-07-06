@@ -9,10 +9,10 @@ public class Main2 {
 		
 		int t = sc.nextInt();
 		
-		for(int i=0; i<t+1; i++){
-			for(int j=0; j<t+1; j++) {
-				System.out.println(i+j);
-			}
+		for(int i=0; i<t; i++){
+			int a = sc.nextInt();
+			int b = sc.nextInt();
+			System.out.println(a+b);
 		}
 				
 	}
